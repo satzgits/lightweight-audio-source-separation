@@ -100,5 +100,5 @@ Together these show a complete audio AI pipeline!
 
 ---
 
-*Built for IPHIPI Technologies internship preparation*
+
 *GitHub: github.com/satzgits/lightweight-audio-source-separation*
