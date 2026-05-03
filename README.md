@@ -3,14 +3,14 @@
 
 A simplified version of audio stem separation (like FL Studio) optimized for edge devices. Separates mixed audio into voice and background components.
 
-## 🎯 What It Does
+##  What It Does
 
 - Separates voice from background noise
 - Works like FL Studio stem separation
 - Optimized for edge/CPU deployment
 - Shows understanding of frequency domain processing
 
-## 🧠 Why It Matters
+##  Why It Matters
 
 Source separation is used in:
 - Music production (FL Studio, iZotope)
@@ -25,7 +25,7 @@ Source separation is used in:
 - Lightweight architecture
 - CPU-friendly
 
-## 📦 Installation
+##  Installation
 
 ```bash
 pip install -r requirements.txt
@@ -36,7 +36,7 @@ Or:
 pip install torch torchaudio librosa soundfile numpy matplotlib
 ```
 
-## 🚀 Usage
+##  Usage
 
 ### Jupyter Notebook (Recommended)
 ```bash
@@ -53,7 +53,7 @@ python scripts/separate_audio.py --input input_audio/mixed.wav
 python scripts/convert_to_onnx.py
 ```
 
-## 📊 Performance
+##  Performance
 
 | Metric | Full Model | Optimized |
 |--------|-----------|-----------|
@@ -62,7 +62,7 @@ python scripts/convert_to_onnx.py
 | Platform | GPU | CPU |
 | Speed | Real-time | Real-time |
 
-## 🔁 Pipeline
+##  Pipeline
 
 ```
 Mixed Audio → STFT → Spectrogram → Masking → ISTFT → Voice + Background
@@ -70,7 +70,7 @@ Mixed Audio → STFT → Spectrogram → Masking → ISTFT → Voice + Backgroun
             [Voice Mask] [Background Mask]
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 lightweight-audio-source-separation/
@@ -82,14 +82,14 @@ lightweight-audio-source-separation/
     ├── convert_to_onnx.py        # ONNX conversion
     └── optimize_model.py        # Model optimization
 
-## 🎓 Skills Demonstrated
+##  Skills Demonstrated
 
 - FFT/STFT signal processing
 - Frequency domain understanding
 - Audio/source separation
 - Model optimization
 
-## 🔗 Related Projects
+##  Related Projects
 
 - [Edge AI Speech Enhancement](../edge-ai-speech-enhancement/)
 - [Real-Time VAD](../real-time-voice-activity-detector/)
