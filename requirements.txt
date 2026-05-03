@@ -1,0 +1,8 @@
+# Requirements for Lightweight Audio Source Separation
+
+torch
+torchaudio
+librosa
+soundfile
+numpy
+matplotlib
