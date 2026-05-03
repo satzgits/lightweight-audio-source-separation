@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lightweight Audio Source Separation
 
 A simplified version of audio stem separation (like FL Studio) optimized for edge devices. Separates mixed audio into voice and background components.
@@ -98,3 +99,6 @@ Together these show a complete audio AI pipeline!
 ---
 
 *Built for IPHIPI Technologies internship preparation*
+=======
+# lightweight-audio-source-separation
+>>>>>>> e112555de10bc178d2ee9688dfb0119cf6b56f95
